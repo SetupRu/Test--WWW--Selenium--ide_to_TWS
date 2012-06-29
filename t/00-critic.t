@@ -18,6 +18,7 @@ if (!$ENV{TEST_AUTHOR}) {
   plan( skip_all => $msg );
 }
 
+
 eval {
   require Test::Perl::Critic;
 };
